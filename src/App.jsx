@@ -1,12 +1,13 @@
-import ProductList from "./Lists/ProductList.jsx";
-function App() {
+import Person from "./Props/Person.jsx";
+export const App = () => {
     return (
         <main>
-            <ProductList/>
+        <Person name="Mukhlisa" age="15"/>
         </main>
     )
 }
 export default App
+
 
 
 
