@@ -1,15 +1,11 @@
-import UserList from "./Lists/UserList.jsx";
-
-
+import ProductList from "./Lists/ProductList.jsx";
 function App() {
-
     return (
-        <main style={{background: "darkcyan", margin: '20px'}}>
-          <UserList/>
+        <main>
+            <ProductList/>
         </main>
     )
 }
-
 export default App
 
 
