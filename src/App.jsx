@@ -1,8 +1,8 @@
-import Person from "./Props/Person.jsx";
+import Products from "./Hooks/UseStateWithMassive.jsx";
 export const App = () => {
     return (
         <main>
-        <Person name="Mukhlisa" age="15"/>
+            <Products/>
         </main>
     )
 }

@@ -1,10 +1,15 @@
-const Salomlashish = () => {
-        const title = 'Salomlashish';
+const Lists = () => {
+    const products = ['apple', "banana", "onions", "salmon", "cheese", "butter"]
 
-    return (
+
+    return(
         <div>
-            <h1>{title}</h1>
+            {products.map((product)=> (
+                <ul key={Math.random()}>
+                    <li>{product}</li>
+                </ul>
+            ))}
         </div>
     )
-}
-export default Salomlashish
+    }
+    export default Lists
