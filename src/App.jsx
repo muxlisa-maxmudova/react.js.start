@@ -1,10 +1,9 @@
-//import Weather from "./ConditionalRendering/Weather.jsx";
-import UserState from "./ConditionalRendering/UserState.jsx";
+import Greeting from "./ConditionalRendering/Greeting.jsx";
 
 export const App = () => {
     return (
         <main>
-            <UserState loggedIn={true} isAdmin={false}/>
+            <Greeting/>
         </main>
     )
 }
