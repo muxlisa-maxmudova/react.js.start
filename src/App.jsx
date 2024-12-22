@@ -1,8 +1,8 @@
-import ToDoList from "./Hooks/ToDoList.jsx";
+import Profile from "./Hooks/Profile.jsx";
 export const App = () => {
     return (
         <main>
-        <ToDoList/>
+        <Profile/>
         </main>
     )
 }
