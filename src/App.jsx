@@ -1,9 +1,8 @@
-import ExampleTwo from "./Hooks/ExampleTwo.jsx";
-
+import ToDoList from "./Hooks/ToDoList.jsx";
 export const App = () => {
     return (
         <main>
-          <ExampleTwo/>
+        <ToDoList/>
         </main>
     )
 }
