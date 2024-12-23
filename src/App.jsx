@@ -1,8 +1,8 @@
-import Profile from "./Hooks/Profile.jsx";
+import ShoppingList from "./Hooks/ShoppingList.jsx";
 export const App = () => {
     return (
         <main>
-        <Profile/>
+        <ShoppingList/>
         </main>
     )
 }
