@@ -1,8 +1,8 @@
-import ShoppingList from "./Hooks/ShoppingList.jsx";
+import CopyPaste from "./Portal/CopyPaste.jsx";
 export const App = () => {
     return (
         <main>
-        <ShoppingList/>
+          <CopyPaste/>
         </main>
     )
 }

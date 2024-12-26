@@ -33,13 +33,13 @@ const ShoppingList = () => {
                 />
                 <button type="submit">Add item</button>
             </form>
-            <ul>
+            <ol>
                 {items.map((item) => (
                     <li key={Math.random()}>
                         {item.name} - quantity: {item.quantity}
                     </li>
                 ))}
-            </ul>
+            </ol>
         </div>
     )
 }
