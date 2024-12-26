@@ -1,8 +1,9 @@
-import CopyPaste from "./Portal/CopyPaste.jsx";
+//import CopyPaste from "./Portal/CopyPaste.jsx";
+import Switcher from "./Portal/Switcher.jsx";
 export const App = () => {
     return (
         <main>
-          <CopyPaste/>
+           <Switcher/>
         </main>
     )
 }
