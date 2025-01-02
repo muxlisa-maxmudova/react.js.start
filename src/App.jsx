@@ -1,9 +1,10 @@
-//import CopyPaste from "./Portal/CopyPaste.jsx";
-import Switcher from "./Portal/Switcher.jsx";
+//import QuizApp from "./SmallProjects/QuizApp.jsx";
+import ProductList from "./Lists/ProductList.jsx";
+import QuizApp from "./SmallProjects/QuizApp.jsx";
 export const App = () => {
     return (
         <main>
-           <Switcher/>
+         <QuizApp/>
         </main>
     )
 }
