@@ -1,18 +1,14 @@
-import ComponentA from "./Hooks/Prop_drilling/ComponentA.jsx";
-import {createContext} from "react";
-
-export const Data = createContext();
-export const Data1 = createContext();
+import UserProfile from "./Hooks/Prop_drilling/UserProfile.jsx";
+import {UserProvider} from "./Hooks/Prop_drilling/UserContext.jsx";
+import UserUpdate from "./Hooks/Prop_drilling/UserUpdate.jsx";
 const App = () => {
-    const name = 'Mukhlisa';
-    const age = 14;
+
     return (
         <main>
-            <Data.Provider value={name}>
-                <Data1.Provider value={age}>
-                    <ComponentA/>
-                </Data1.Provider>
-            </Data.Provider>
+           <UserProvider>
+               <UserProfile/>
+               <UserUpdate/>
+           </UserProvider>
         </main>
     )
 }
