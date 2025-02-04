@@ -10,7 +10,7 @@ const HandlingTimeouts = () => {
         return () => {
               clearTimeout(TimeRef.current);
         }
-    },[])
+    },[]);
 
     return (
         <div>
