@@ -1,8 +1,9 @@
 import Counter from "./Hooks/UseReducer/Counter.jsx";
+import HandlingDOM from "./Hooks/UseRef/HandlingDOM.jsx";
 const App = () => {
     return (
         <main>
-            <Counter/>
+            <HandlingDOM/>
         </main>
     )
 }
