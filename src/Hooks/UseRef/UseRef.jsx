@@ -3,10 +3,16 @@ import {useRef} from "react";
 const UseRef = () => {
     //const background = useRef(null)
 
-        const background = useRef(null)
+        const background = useRef(false)
         const handleClick = () => {
-            document.body.style.backgroundColor = 'black'
-            document.body.style.color = "white"; // Change text color to white for contrast
+            if(background.current) {
+                document.body.style.backgroundColor = 'black'
+                document.body.style.backgroundColor = "white"; // Change text color to white for contrast
+            }else {
+                document.body.style.backgroundColor = 'white';
+                document.body.style.backgroundColor = "black";
+            }
+           background.current = !background.current;
         }
 
     return (
