@@ -1,10 +1,8 @@
-import Counter from "./Hooks/UseReducer/Counter.jsx";
-import HandlingDOM from "./Hooks/UseRef/HandlingDOM.jsx";
-import UseRef from "./Hooks/UseRef/UseRef.jsx";
+import HandlingTimeouts from "./Hooks/UseRef/HandlingTimeouts.jsx";
 const App = () => {
     return (
         <main>
-            <UseRef/>
+            <HandlingTimeouts/>
         </main>
     )
 }
