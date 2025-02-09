@@ -1,8 +1,8 @@
-import HandlingTimeouts from "./Hooks/UseRef/HandlingTimeouts.jsx";
+import Counter from "./Hooks/Custom hook/Counter.jsx";
 const App = () => {
     return (
         <main>
-            <HandlingTimeouts/>
+            <Counter/>
         </main>
     )
 }
