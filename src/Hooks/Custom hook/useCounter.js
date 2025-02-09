@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState} from "react"
 
 export function useCounter() {
     const [count, setCount] = useState(0);
